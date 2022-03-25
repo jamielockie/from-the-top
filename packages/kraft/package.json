@@ -1,6 +1,6 @@
 {
   "name": "from-the-top-kraft",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Jamie Lockie <jamielockie@gmail.com>",
   "homepage": "",
@@ -34,6 +34,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "from-the-top-core": "^0.0.0"
+    "from-the-top-core": "^0.0.2"
   }
 }
