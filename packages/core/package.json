@@ -1,10 +1,7 @@
 {
   "name": "from-the-top-core",
   "version": "1.0.0",
-  "description": "> TODO: description",
-  "author": "Jamie Lockie <jamielockie@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
+  "description": "Core atomic components, no styles",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "files": [
