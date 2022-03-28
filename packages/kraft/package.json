@@ -5,13 +5,12 @@
   "author": "Jamie Lockie <jamielockie@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
   "files": [
     "lib"
   ],
   "publishConfig": {
-    "directory": "lib",
     "access": "public"
   },
   "devDependencies": {
@@ -25,6 +24,7 @@
     "rollup-plugin-dts": "^4.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
     "styled-components": "^5.3.3",
     "typescript": "^4.6.3"
   },
@@ -34,6 +34,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "from-the-top-core": "^0.0.2"
+    "from-the-top-core": "0.0.2"
   }
 }

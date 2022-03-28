@@ -15,13 +15,11 @@ export default [
                 file: packageJson.main,
                 format: "cjs",
                 sourcemap: true,
-                inlineDynamicImports: true,
             },
             {
                 file: packageJson.module,
                 format: "esm",
                 sourcemap: true,
-                inlineDynamicImports: true,
             },
         ],
         plugins: [
@@ -34,7 +32,7 @@ export default [
         external: ["react", "react-dom", "styled-components"]
     },
     {
-        input: "lib/esm/types/index.d.ts",
+        input: "lib/types/index.d.ts",
         output: [{ file: "lib/index.d.ts", format: "esm" }],
         plugins: [dts()],
     },
