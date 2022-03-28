@@ -11,7 +11,7 @@ This is a work in progress and will continue to evolve, as needed.
 
 ```
 - packages
-    // bare-bones components to style/augment as needed
+    // Bare-bones components to style/augment as needed
     - core 
 
     // Brand specific packages that import `core` modules and export styled components
@@ -38,11 +38,11 @@ This is a work in progress and will continue to evolve, as needed.
 
 <!-- Still to come -->
 ### Testing
-- [Jest](https://jestjs.io/) Our test runner
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) Framework for writing react tests that focus on DOM interaction and a user-centric testing paradigm
+- [Jest](https://jestjs.io/) is our test runner.
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) is a framework for writing react tests that focus on DOM interaction and a user-centric testing paradigm
 
 ### Developer Experience Tooling
-- [Storybook](https://storybook.js.org/) For testing and documenting and publishing components
-- [Plop](https://github.com/plopjs/plop) Code generation for quickly and seamlessly creating consistent components
-- [ESLint](https://eslint.org/) For linting
-- [Prettier](https://prettier.io/) For automatic adherence to linting rules
+- [Storybook](https://storybook.js.org/) is for testing and documenting and publishing components
+- [Plop](https://github.com/plopjs/plop) is for generating code to quickly and seamlessly create consistent components
+- [ESLint](https://eslint.org/) is to define project-wide linting rules
+- [Prettier](https://prettier.io/) is used for automatic adherence to linting rules
